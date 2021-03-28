@@ -153,11 +153,11 @@
 }
 
 /* Edit Task */
-.tasks-list li input[type=text] {
+.tasks-list .input-field.task {
   display: none;
 }
 
-.tasks-list li.edit-mode input[type=text] {
+.tasks-list .edit-mode .input-field.task {
   display: inline-block;
   width: 224px;
 }
