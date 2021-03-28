@@ -49,16 +49,16 @@
   padding: 0px;
 }
 
-li {
+.task-list-item {
   list-style: none;
 }
 
 input,
-button{
+.btn {
   outline: none;
 }
 
-button {
+.btn {
   background: none;
   border: 0px;
   color: #888;
@@ -68,7 +68,7 @@ button {
   cursor: pointer;
 }
 
-button:hover {
+.btn:hover {
   color: #3a3a3a;
 }
 
@@ -110,7 +110,7 @@ input#new-task {
   width: 318px;
 }
 
-.new-task-section > button:hover {
+.add-btn:hover {
   color: #0fc57c;
 }
 
