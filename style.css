@@ -54,7 +54,8 @@
 }
 
 input,
-.btn {
+.btn,
+.btn:focus {
   outline: none;
 }
 
@@ -106,7 +107,7 @@ input[type="text"]:focus {
   margin: 0 0 20px;
 }
 
-input#new-task {
+.new-task-input {
   width: 318px;
 }
 
@@ -115,7 +116,7 @@ input#new-task {
 }
 
 /* Task list */
-li {
+.task-list-item {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
@@ -124,12 +125,13 @@ li {
   align-items: center;
 }
 
-li > * {
+/* li > * {
   vertical-align: middle;
-}
+} */
 
-li > input[type="checkbox"] {
+.input-checkbox {
   margin: 0 10px;
+  cursor: pointer;
 }
 
 li > label {

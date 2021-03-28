@@ -18,13 +18,18 @@ var completedTasksHolder=document.getElementById("completed-tasks");//completed-
 var createNewTaskElement=function(taskString){
 
     var listItem=document.createElement("li");
+    listItem.className = "task-list-item";
 
     //input (checkbox)
     var checkBox=document.createElement("input");//checkbx
+    checkBox.className = "input-checkbox";
     //label
     var label=document.createElement("label");//label
     //input (text)
+
     var editInput=document.createElement("input");//text
+    editInput.className = "input-field"
+
     //button.edit
     var editButton=document.createElement("button");//edit button
 
@@ -156,7 +161,7 @@ addButton.addEventListener("click",ajaxRequest);
 var bindTaskEvents=function(taskListItem,checkBoxEventHandler){
     console.log("bind list item events");
 //select ListItems children
-    var checkBox=taskListItem.querySelector("input[type=checkbox]");
+    var checkBox=taskListItem.querySelector(".input-checkbox");
     var editButton=taskListItem.querySelector(".edit-btn");
     var deleteButton=taskListItem.querySelector(".delete-btn");
 
