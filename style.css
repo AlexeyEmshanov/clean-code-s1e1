@@ -12,7 +12,7 @@
   text-align: right;
 }
 
-.promo-section img {
+.promo-img {
   width: 100%;
 }
 
@@ -144,16 +144,16 @@ li > input[type="text"] {
 }
 
 .delete-btn:hover {
-  color: #cf2323;
+  filter: invert(20%) sepia(100%) saturate(5000%) brightness(120%);
 }
 
-.delete-btn img {
+.remove-img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.delete-btn img:hover {
+.remove-img:hover {
   transform: rotateZ(0);
 }
 
