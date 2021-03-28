@@ -56,7 +56,7 @@
   list-style: none;
 }
 
-input,
+.task,
 .btn,
 .btn:focus {
   outline: none;
@@ -87,7 +87,7 @@ input,
   text-transform: uppercase;
 }
 
-input[type="text"] {
+.input-field {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -99,7 +99,7 @@ input[type="text"] {
   color: #888;
 }
 
-input[type="text"]:focus {
+.input-field:focus {
   color: #333;
 }
 
@@ -130,10 +130,6 @@ input[type="text"]:focus {
 .input-checkbox {
   margin: 0 10px;
   cursor: pointer;
-}
-
-li > input[type="text"] {
-  width: 226px;
 }
 
 .delete-btn:hover {
