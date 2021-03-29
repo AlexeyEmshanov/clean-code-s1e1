@@ -12,11 +12,11 @@
   text-align: right;
 }
 
-.promo-img {
+.promo-section__banner {
   width: 100%;
 }
 
-.promo-section .more-info {
+.promo-section .promo-section__info-link {
   font-family: fantasy, cursive;
 }
 
