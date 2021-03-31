@@ -55,7 +55,7 @@
 
 .task,
 .button ,
-.button :focus {
+.button:focus {
   outline: none;
 }
 
@@ -155,15 +155,15 @@
 }
 
 /* Edit Task */
-.tasks-list .input.task {
+.task .task__input {
   display: none;
 }
 
-.tasks-list .edit-mode .input.task {
+.task.edit-mode .task__input {
   display: inline-block;
   width: 224px;
 }
 
-.edit-mode .task {
+.task.edit-mode .task__label {
   display: none;
 }
