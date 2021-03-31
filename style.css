@@ -115,7 +115,7 @@
 
 }
 
-.new-task__button_green:hover {
+.new-task__button_active:hover {
   color: #0fc57c;
 }
 
@@ -139,7 +139,7 @@
   transition: transform 200ms ease-in;
 }
 
-.task__delete-button_red:hover {
+.task__delete-button_active:hover {
   filter: invert(20%) sepia(100%) saturate(5000%) brightness(120%);
   transform: rotateZ(0);
 }
