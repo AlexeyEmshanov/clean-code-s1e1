@@ -28,7 +28,7 @@
 
 }
 
-.main-wrapper {
+.main-section {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -149,7 +149,7 @@
 }
 
 /* Completed */
-.tasks-list.complited {
+.tasks-list_complited {
   text-decoration: line-through;
   color: #888;
 }
